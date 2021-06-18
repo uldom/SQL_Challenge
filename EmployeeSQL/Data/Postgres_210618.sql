@@ -85,6 +85,7 @@ REFERENCES "titles" ("title_id");
 ALTER TABLE "salaries" ADD CONSTRAINT "fk_salaries_empl_no" FOREIGN KEY("empl_no")
 REFERENCES "employees" ("empl_no");
 
+-- confirm the import worked
 -- select * from salaries
 
 -- 1. List the following details of each employee: employee number, last name, first name, sex, and salary
@@ -148,10 +149,8 @@ FROM
 WHERE "dept_name" = 'Sales' OR "dept_name" = 'Development'
 ORDER BY dept_name ASC;
 
-
-
-
-
-
-
-
+-- 8. In descending order, list the frequency count of employee last names
+SELECT "last_name", COUNT("last_name") AS "frequency"
+FROM "employees"
+GROUP BY "employees"."last_name"
+ORDER BY COUNT("employees"."last_name") DESC;
