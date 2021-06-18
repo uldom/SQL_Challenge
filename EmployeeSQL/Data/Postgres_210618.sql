@@ -95,63 +95,59 @@ WHERE "employees"."empl_no" = "salaries"."empl_no";
 -- 2. List first name, last name, and hire date for employees who were hired in 1986
 SELECT "first_name", "last_name", "hire_date"
 FROM "employees"
-WHERE hire_date BETWEEN '1986-01-01' AND '1986-12-31'
+WHERE hire_date BETWEEN '1986-01-01' AND '1986-12-31';
 
 -- 3. List the manager of each department with the following information: 
 ----  department number, department name, the manager's employee number, last name, first name
-select
+SELECT
     "manager"."dept_no", 
 	"departments"."dept_name",
     "employees"."empl_no", "employees"."last_name", "employees"."first_name"
-from
+FROM
     "manager" 
-    inner join "departments" on "manager"."dept_no" = "departments"."dept_no"
-    inner join "employees" on "employees"."empl_no" = "manager"."empl_no";
+    INNER JOIN "departments" ON "manager"."dept_no" = "departments"."dept_no"
+    INNER JOIN "employees" ON "employees"."empl_no" = "manager"."empl_no";
 
 -- 4. List the department of each employee with the following information: 
 ----  employee number, last name, first name, and department name
-select
+SELECT
     "employees"."empl_no", "employees"."last_name", "employees"."first_name", 
 	"departments"."dept_name"
-	
-from
+FROM
     "employees" 
-    inner join "dept_employee" on "employees"."empl_no" = "dept_employee"."empl_no"
-    inner join "departments" on "dept_employee"."dept_no" = "departments"."dept_no";
+    INNER JOIN "dept_employee" ON "employees"."empl_no" = "dept_employee"."empl_no"
+    INNER JOIN "departments" ON "dept_employee"."dept_no" = "departments"."dept_no"
+	ORDER BY "employees"."empl_no";
 
 -- 5. List first name, last name, and sex for employees whose first name is
 ----  "Hercules" and last names begin with "B"
-select "first_name", "last_name", "sex"
-from "employees"
-where "first_name" = 'Hercules' and "last_name" like 'B%'
+SELECT "first_name", "last_name", "sex"
+FROM "employees"
+WHERE "first_name" = 'Hercules' AND "last_name" LIKE 'B%';
 
 -- 6. List all employees in the Sales department, including their 
 ----  employee number, last name, first name, and department name
-select
+SELECT
     "employees"."empl_no", "employees"."last_name", "employees"."first_name", 
 	"departments"."dept_name"
-	
-from
+FROM
     "employees" 
-    inner join "dept_employee" on "employees"."empl_no" = "dept_employee"."empl_no"
-    inner join "departments" on "dept_employee"."dept_no" = "departments"."dept_no"
-
-WHERE "dept_name" = 'Sales'
+    INNER JOIN "dept_employee" ON "employees"."empl_no" = "dept_employee"."empl_no"
+    INNER JOIN "departments" ON "dept_employee"."dept_no" = "departments"."dept_no"
+WHERE "dept_name" = 'Sales';
 
 -- 7. List all employees in the Sales and Development departments, 
 ----  including their employee number, last name, first name, and department name
-select
+SELECT
     "employees"."empl_no", "employees"."last_name", "employees"."first_name", 
 	"departments"."dept_name"
-	
-from
+FROM
     "employees" 
-    inner join "dept_employee" on "employees"."empl_no" = "dept_employee"."empl_no"
-    inner join "departments" on "dept_employee"."dept_no" = "departments"."dept_no"
+    INNER JOIN "dept_employee" ON "employees"."empl_no" = "dept_employee"."empl_no"
+    INNER JOIN "departments" ON "dept_employee"."dept_no" = "departments"."dept_no"
+WHERE "dept_name" = 'Sales' OR "dept_name" = 'Development'
+ORDER BY dept_name ASC;
 
-WHERE "dept_name" = 'Sales' or "dept_name" = 'Development'
-
-order by dept_name asc
 
 
 
