@@ -9,7 +9,7 @@ DROP TABLE IF EXISTS "employees";
 DROP TABLE IF EXISTS "salaries";
 DROP TABLE IF EXISTS "titles";
 
--- Creat the tables
+-- Create the tables
 CREATE TABLE "departments" (
     "dept_no" VARCHAR NOT NULL,
     "dept_name" VARCHAR NOT NULL,
