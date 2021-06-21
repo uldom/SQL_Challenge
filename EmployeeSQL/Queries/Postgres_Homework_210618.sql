@@ -96,7 +96,8 @@ WHERE "employees"."empl_no" = "salaries"."empl_no";
 -- 2. List first name, last name, and hire date for employees who were hired in 1986
 SELECT "first_name", "last_name", "hire_date"
 FROM "employees"
-WHERE hire_date BETWEEN '1986-01-01' AND '1986-12-31';
+WHERE hire_date BETWEEN '1986-01-01' AND '1986-12-31'
+order by "hire_date";
 
 -- 3. List the manager of each department with the following information: 
 ----  department number, department name, the manager's employee number, last name, first name
@@ -146,8 +147,7 @@ FROM
     "employees" 
     INNER JOIN "dept_employee" ON "employees"."empl_no" = "dept_employee"."empl_no"
     INNER JOIN "departments" ON "dept_employee"."dept_no" = "departments"."dept_no"
-WHERE "dept_name" = 'Sales' OR "dept_name" = 'Development'
-ORDER BY dept_name ASC;
+WHERE "dept_name" = 'Sales' OR "dept_name" = 'Development';
 
 -- 8. In descending order, list the frequency count of employee last names
 SELECT "last_name", COUNT("last_name") AS "frequency"
