@@ -18,9 +18,37 @@
 
 <p align:'Center'> <img src="https://github.com/uldom/SQL_Challenge/blob/main/EmployeeSQL/Output/ERD_210617.png?raw=true"> 
 
-
-
 <br>
+
+<h2>Data Analysis</h2>
+<br>
+<ol>
+    <li>List the following details of each employee: employee number, last name, first name, sex, and salary 
+    </p>
+   <p align:'Center'> <img src="https://github.com/uldom/SQL_Challenge/blob/main/EmployeeSQL/Output/results_csv_files/1_employee_data.PNG?raw=true"> </p>
+    <li>
+
+
+​    
+​    
+​    
+​    
+​    
+​    
+​    
+    <li>dos</li>
+<li>tres</li>
+<li>cuatro</li>
+</ol><h3>1. List the following details of each employee: employee number, last name, first name, sex, and salary.</h3>
+
+
+
+
+
+
+
+
+
 
 <h3>Salary by Title 3</h3>
 <p align:'Center'> <img src="https://github.com/uldom/SQL_Challenge/blob/main/EmployeeSQL/Output/Salary_by_Title.jpg?raw=true"> </p>
@@ -30,7 +58,9 @@
 <li>tres</li>
 <li>cuatro</li>
 </ol>
+
 <br>
+
 <ul>
 <li>uno</li>
 <li>uno</li>
