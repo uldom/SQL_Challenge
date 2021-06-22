@@ -16,7 +16,7 @@
 
 <p align:'justify'>The following image shows the data tables and their relationships with each other.</p>
 
-![image-20210622183304086](C:\Users\uldom\AppData\Roaming\Typora\typora-user-images\image-20210622183304086.png)
+<p align:'Center'> <img src="https://github.com/uldom/SQL_Challenge/blob/main/EmployeeSQL/Output/ERD_210617.png?raw=true"> 
 
 
 
