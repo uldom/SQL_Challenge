@@ -1,10 +1,27 @@
-<h1>SQL _Challenge</h1>
-<p align:'Justify'> Aqui va el parrafo con todo lo que quiera escribir</p>
+<h1>SQL Challenge
+<p align:'Justify'> Employee Database: A Mystery in Two Parts</p>
+</h1>
+
 <br>
-<p align:'justify'>SQL Challenge - Aqui va el parrafo con todo lo que quiera escribir</p>
+
+<p align:'justify'>The purpose of this project is to conduct a research on a database of employees of a corporation from the 1980s and 1990s.</p>
+
+<p align:'justify'>This project is split in two parts:
+<p align:'center'>Data Engineering<p>
+<p align:'center'>Data Analysis<p>
+
 <br>
-<h2>test</h2>
+
+<h2>Data Engineering</h2>
+
+<p align:'justify'>The following image shows the data tables and their relationships with each other.</p>
+
+![ERD_210617](D:\036_Rice\1_Homework_UD\SQL_Challenge\EmployeeSQL\Output\ERD_210617.png)
+
+
+
 <br>
+
 <h3>Salary by Title 3</h3>
 <p align:'Center'> <img src="https://github.com/uldom/SQL_Challenge/blob/main/EmployeeSQL/Output/Salary_by_Title.jpg?raw=true"> </p>
 <ol>
@@ -35,7 +52,6 @@
 ![image](https://user-images.githubusercontent.com/82187978/122838036-d12bf100-d2ba-11eb-9834-e7a86eac76fb.png)
 
 ![image](https://user-images.githubusercontent.com/82187978/122838083-ee60bf80-d2ba-11eb-8772-48b75ea9b8e4.png)
-
 
 
 
