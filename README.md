@@ -22,6 +22,7 @@
 
 <h2>Data Analysis</h2>
 <br>
+
 <ol>
     <li>List the following details of each employee: employee number, last name, first name, sex, and salary 
     </p>
@@ -35,7 +36,22 @@
     </p>
    <p align:'Center'> <img src="https://github.com/uldom/SQL_Challenge/blob/main/EmployeeSQL/Output/results_csv_files/3_dept_managers.PNG?raw=true"> </p>
 	<br>
+	<li>List the department of each employee with the following information: employee number, last name, first name, and department name 
+    </p>
+   <p align:'Center'> <img src="https://github.com/uldom/SQL_Challenge/blob/main/EmployeeSQL/Output/results_csv_files/4_employee_dept.PNG?raw=true"> </p>
+	<br>
+	<li>List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B" 
+    </p>
+   <p align:'Center'> <img src="https://github.com/uldom/SQL_Challenge/blob/main/EmployeeSQL/Output/results_csv_files/5_Hercules_B.PNG?raw=true"> </p>
+	<br>
+	<li>List all employees in the Sales department, including their employee number, last name, first name, and department name 
+    </p>
+   <p align:'Center'> <img src="https://github.com/uldom/SQL_Challenge/blob/main/EmployeeSQL/Output/results_csv_files/6_sales_dept.PNG?raw=true"> </p>
+	<br>
 	<li>
+<ol>
+
+​    
 
 
 
