@@ -59,13 +59,22 @@
 
 ​    
 
+<h1>Bonus
+<p align:'Justify'> Visualization of the Data</p>
+</h1>
+
+<h2>Salary ranges for employees</h2>
+
+</p>
+
+<p align:'justify'>The following histogram shows the salary ranges for employees. We can clearly see that the majority of employees of this corporation have a salary in the range of $40,000 to $50,000; this is almost 160,000 out of 300,000 employees.</p>
 
 
 
+ <p align:'Center'> <img src="https://github.com/uldom/SQL_Challenge/blob/main/EmployeeSQL/Output/Salary_Ranges_Histogram.jpg?raw=true"> 	</p>
 
 
 
-<h3>Salary by Title 3</h3>
 <p align:'Center'> <img src="https://github.com/uldom/SQL_Challenge/blob/main/EmployeeSQL/Output/Salary_by_Title.jpg?raw=true"> </p>
 
 <br>
