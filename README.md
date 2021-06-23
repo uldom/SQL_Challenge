@@ -63,9 +63,9 @@
 <p align:'Justify'> Visualization of the Data</p>
 </h1>
 
-<h2>Salary ranges for employees</h2>
+<h2>Salary Ranges for Employees</h2>
 
-</p>
+
 
 <p align:'justify'>The following histogram shows the salary ranges for employees. We can clearly see that the majority of employees of this corporation have a salary in the range of $40,000 to $50,000; this is almost 160,000 out of 300,000 employees.</p>
 
@@ -75,9 +75,19 @@
 
 
 
-<p align:'Center'> <img src="https://github.com/uldom/SQL_Challenge/blob/main/EmployeeSQL/Output/Salary_by_Title.jpg?raw=true"> </p>
+<h2>Average Salary by Title</h2>
+
+<p align:'justify'>The following graph shows that the salary difference among Assistant Engineers, Engeineers, Senior Engineers and Technique Leaders is minimal, around 100 USD. Same behavior for Staff and Senior Staff titles.</p>
 
 <br>
+
+
+
+<p align:'Center'> <img src="https://github.com/uldom/SQL_Challenge/blob/main/EmployeeSQL/Output/Salary_by_Title_Table.jpg?raw=true"> </p>
+
+
+
+<p align:'Center'> <img src="https://github.com/uldom/SQL_Challenge/blob/main/EmployeeSQL/Output/Salary_by_Title.jpg?raw=true"> </p>
 
 
 
