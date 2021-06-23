@@ -48,7 +48,13 @@
     </p>
    <p align:'Center'> <img src="https://github.com/uldom/SQL_Challenge/blob/main/EmployeeSQL/Output/results_csv_files/6_sales_dept.PNG?raw=true"> </p>
 	<br>
-	<li>
+	<li>List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name 
+    </p>
+   <p align:'Center'> <img src="https://github.com/uldom/SQL_Challenge/blob/main/EmployeeSQL/Output/results_csv_files/7_sales_and_development.PNG?raw=true"> </p>
+	<br>
+	<li>In descending order, list the frequency count of employee last names 
+    </p>
+   <p align:'Center'> <img src="https://github.com/uldom/SQL_Challenge/blob/main/EmployeeSQL/Output/results_csv_files/8_last_names_frequency.PNG?raw=true"> 	</p>
 <ol>
 
 ​    
