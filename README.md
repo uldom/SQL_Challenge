@@ -77,7 +77,7 @@
 
 <h2>Average Salary by Title</h2>
 
-<p align:'justify'>The following graph shows that the salary difference among Assistant Engineers, Engeineers, Senior Engineers and Technique Leaders is minimal, around 100 USD. Same behavior for Staff and Senior Staff titles.</p>
+<p align:'justify'>The following graph shows that the salary difference among Assistant Engineers, Engineers, Senior Engineers and Technique Leaders is minimal, around 100 USD. Same behavior for Staff and Senior Staff titles.</p>
 
 <br>
 
